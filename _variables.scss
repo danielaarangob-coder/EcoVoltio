@@ -1,0 +1,25 @@
+// ===== Paleta de EcoVoltio =====
+$color-principal: #1B5E20;
+$color-oscuro: #2E7D32;
+$color-acento: #F9A825;
+$color-fondo: #F4F7F2;
+$color-texto: #1F2933;
+$color-suave: #DDEBDD;
+$color-claro: #E3F2E3;
+$color-gris: #52606D;
+$color-alerta: #FFF8E1;
+
+// ===== Medidas =====
+$radio: 20px;
+$sombra: 0 6px 18px rgba(0, 0, 0, 0.15);
+
+// ===== Puntos de corte (responsivo) =====
+$tablet: 992px;
+$celular: 576px;
+
+// ===== Mixin reutilizable para cajas =====
+@mixin caja($relleno: 16px) {
+    padding: $relleno;
+    border-radius: $radio;
+    box-shadow: $sombra;
+}
